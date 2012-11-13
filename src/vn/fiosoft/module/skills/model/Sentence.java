@@ -1,4 +1,6 @@
-package vn.fiosoft.model;
+package vn.fiosoft.module.skills.model;
+
+import vn.fiosoft.common.Language;
 
 public class Sentence {
 

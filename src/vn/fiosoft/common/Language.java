@@ -1,4 +1,4 @@
-package vn.fiosoft.model;
+package vn.fiosoft.common;
 
 public class Language {
 	public static final String ENGLISH = "en";
