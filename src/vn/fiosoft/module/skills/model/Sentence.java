@@ -1,12 +1,10 @@
 package vn.fiosoft.module.skills.model;
 
-import vn.fiosoft.common.Language;
-
 public class Sentence {
 
 	private int id;
 	private String content;
-	private Language language;
+	private String language;
 	private int group;
 
 	public Sentence() {
@@ -32,11 +30,11 @@ public class Sentence {
 		this.content = content;
 	}
 
-	public Language getLanguage() {
+	public String getLanguage() {
 		return language;
 	}
 
-	public void setLanguage(Language language) {
+	public void setLanguage(String language) {
 		this.language = language;
 	}
 
