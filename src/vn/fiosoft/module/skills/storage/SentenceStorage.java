@@ -11,7 +11,7 @@ public class SentenceStorage {
     public SentenceStorage() {
 
     }
-
+    
     public List<Sentence> getSentenceGroup(int group) {
 	List<Sentence> list = new ArrayList<Sentence>();
 	if (group == 1) {
