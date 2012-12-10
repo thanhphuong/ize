@@ -1,17 +1,19 @@
 package vn.fiosoft.module.skills.model;
 
+import java.util.List;
+
 public class Sentence {
 
 	private int id;
-	private String content;
+	public List<String> texts;
+	private String phonetic;
 	private String language;
-	private int group;
-
+	
 	public Sentence() {
 		this.id = 0;
-		this.content = "";
-		this.language = null;
-		this.group = 0;
+		this.texts = null;
+		this.phonetic = "";
+		this.language = "";
 	}
 
 	public int getId() {
@@ -22,12 +24,12 @@ public class Sentence {
 		this.id = id;
 	}
 
-	public String getContent() {
-		return content;
+	public String getPhonetic() {
+		return phonetic;
 	}
 
-	public void setContent(String content) {
-		this.content = content;
+	public void setPhonetic(String phonetic) {
+		this.phonetic = phonetic;
 	}
 
 	public String getLanguage() {
@@ -37,13 +39,4 @@ public class Sentence {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
-
-	public int getGroup() {
-		return group;
-	}
-
-	public void setGroup(int group) {
-		this.group = group;
-	}
-
 }

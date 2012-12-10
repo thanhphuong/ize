@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<speakingkill>
+	<name>Easy English</name>
+	<languages>
+		<lang>en<lang>
+		<lang>vi<lang>
+	</languages>
+	<detail></detail>
+	<sentencespeaking>
+		<order>1</order>
+		<sentence>			
+			<language>en</language>
+			<text>I am a pupil</text>
+			<text>I'm a pupil</text>
+			<phonetic><phonetic>			
+		</sentence>
+		<sentence>			
+			<language>vi</language>
+			<text>Tôi là một học sinh</text>
+			<text>Tôi là học sinh</text>
+			<phonetic><phonetic>			
+		</sentence>		
+	</sentencespeaking>	
+	<sentencespeaking>
+		<order>2</order>
+		<sentence>			
+			<language>en</language>
+			<text>I only speak very litle English</text>			
+			<phonetic><phonetic>			
+		</sentence>
+		<sentence>			
+			<language>vi</language>
+			<text>Tôi chỉ nó được 1 chút xíu tiếng Anh</text>			
+			<phonetic><phonetic>			
+		</sentence>		
+	</sentencespeaking>	
+	
+</speakingkill>	
+
+
